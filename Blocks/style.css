@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+}
+div {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 100px 60px 0;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4 {
+    background-color: orangered;
+    border: 2px solid black;
+}
+.block-1:hover {
+    background-color: orchid;
+    margin-top: 6.25em;
+}
+.block-2:hover {
+    background-color: palegreen;
+    margin-top: 25em;
+}
+.block-3:hover {
+    background-color: peachpuff;
+    margin-left: 10em;
+    margin-top: 20em;
+}
+.block-4:hover {
+    background-color: purple;
+    margin-left: 30em;
+    margin-top: 20em;
+}
