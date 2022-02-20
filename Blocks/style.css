@@ -1,39 +1,55 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 100px;
-}
 div {
-    display: block;
+    position: relative;
+    margin: 20px;
     width: 200px;
     height: 200px;
-    float: left;
-    margin: 0 100px 60px 0;
 }
-.block-1,
-.block-2,
-.block-3,
+.block-1 {
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.block-2 {
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.block-3 {
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 .block-4 {
     background-color: orangered;
-    border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
+
 .block-1:hover {
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
     background-color: orchid;
-    margin-top: 6.25em;
 }
 .block-2:hover {
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
     background-color: palegreen;
-    margin-top: 25em;
 }
 .block-3:hover {
+    position: absolute;
+    bottom: 10rem;
+    left: 20rem;
     background-color: peachpuff;
-    margin-left: 10em;
-    margin-top: 20em;
 }
 .block-4:hover {
+    position: absolute;
+    bottom: 10rem;
+    right: 20rem;
     background-color: purple;
-    margin-left: 30em;
-    margin-top: 20em;
 }

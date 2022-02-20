@@ -51,15 +51,15 @@ a {
 .submenu-list {
     display: none;
     position: absolute;
-    min-width: 250px;
+    min-width: 217px;
     left: 0;
     top: 60px;
-    padding: 15px 0px 0px 0px;
+    padding: 19px 0px 0px 0px;
     margin: 0px 0px 0px -10px;
 }
 .submenu-list > li {
     background-color: orangered;
-    padding: 1em;
+    padding: 0.85em;
 }
 .submenu-list > li:hover .sub-submenu-list {
     display: block;
@@ -79,7 +79,7 @@ a {
 }
 .sub-submenu-list > li {
     background-color: orangered;
-    padding: 1em;
+    padding: 0.85em;
 }
 .sub-submenu-link {
     color: #fff;
